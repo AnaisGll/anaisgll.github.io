@@ -14,29 +14,29 @@
 
 ### 🔧 **Compétences**
 
-_**Neurosciences**_  
+<u>**NEUROSCIENCES**</u>  
 Approche globale des neurosciences, de la molécule aux fonctions cognitives, incluant les neurones, les réseaux neuronaux, leur développement et les grandes fonctions intégrées.
 
-_**Data Science**_
+<u>**DATA SCIENCE**</u>
 
-*Langages :*
+**Langages :**
 - Python, SQL
 
-*Environnements de Développement :*
+**Environnements de Développement :**
 - Anaconda, Jupyter, Visual Studio, PyCharm, EEGLab
 
-*Outils et Frameworks :*
-- **Manipulation et Transformation de Données** : Pandas, NumPy
-- **Visualisation des Données** : Matplotlib, Seaborn, Plotly
-- **Machine Learning** : Scikit-learn, TensorFlow, Keras, PyTorch, XGBoost, LightGBM
-- **Deep Learning et Réseaux de Neurones** : Convolutional Neural Networks (CNN)
+**Outils et Frameworks :**
+- *Manipulation et Transformation de Données* : Pandas, NumPy
+- *Visualisation des Données* : Matplotlib, Seaborn, Plotly
+- *Machine Learning* : Scikit-learn, TensorFlow, Keras, PyTorch, XGBoost, LightGBM
+- *Deep Learning et Réseaux de Neurones* : Convolutional Neural Networks (CNN)
 
-*Cloud Computing et Déploiement :*
-- **Cloud Platforms** : Azure, AWS (S3, ERP)
-- **Déploiement d'Applications et de Modèles** : Kubernetes, Streamlit, Flask, GitHub Actions
-- **Gestion et Orchestration de Projets** : MLflow (suivi des expérimentations et des modèles)
+**Cloud Computing et Déploiement :**
+- *Cloud Platforms* : Azure, AWS (S3, ERP)
+- *Déploiement d'Applications et de Modèles* : Kubernetes, Streamlit, Flask, GitHub Actions
+- *Gestion et Orchestration de Projets* : MLflow (suivi des expérimentations et des modèles)
 
-*Versioning et Collaboration :*
+**Versioning et Collaboration :**
 - Git, GitHub, Google Colab, JupyterHub
 
 ---
