@@ -17,6 +17,8 @@
 #### Neurosciences 
 Approche globale des neurosciences, de la molécule aux fonctions cognitives, incluant les neurones, les réseaux neuronaux, leur développement et les grandes fonctions intégrées.
 
+---
+
 #### Data science
 
 **Langages :**
@@ -43,39 +45,31 @@ Approche globale des neurosciences, de la molécule aux fonctions cognitives, in
 
 ### 👩‍🔬 Expériences
 
-#### Stage - Équipe Réhabilitation Cognitive et Sensorielle  
-*Laboratoire de Neurosciences Cognitives, Marseille*  
-*Janvier 2023 - Septembre 2023*  
-
+#### Stage - Équipe Réhabilitation Cognitive et Sensorielle (Caroline Chambon et Myriam Cayre)
+*Laboratoire de Neurosciences Cognitives, Marseille - Janvier 2023 - Septembre 2023*  
 **Sujet** : *Effet de l'âge sur l'activité cérébrale et l'engagement cognitif au cours d'une tâche de mémoire de travail*
 
 - Collecte, traitement, analyse et interprétation de données EEG, pupillométriques et comportementales
 - Réalisation de tests neuropsychologiques et passation de sujets
 - Recherche bibliographique approfondie
 
----
 
-#### Stage - Équipe Langage  
-*Laboratoire de Psychologie Cognitive, Marseille*  
-*Juin 2022*  
+#### Stage - Équipe Langage (Isabelle Dautriche)
+*Laboratoire de Psychologie Cognitive, Marseille - Juin 2022*  
 
 **Sujet** : *Étude de la compositionnalité en l'absence de langage : le cas de la négation*
+- [Voir le poster](https://drive.google.com/file/d/1FMpTJuRK7wqR1PqjkKuOmTZBNtACIrsP/view?usp=drive_link)
 
-[Voir le poster](https://drive.google.com/file/d/1FMpTJuRK7wqR1PqjkKuOmTZBNtACIrsP/view?usp=drive_link)
 
----
-
-#### Stage - Équipe Plasticité et Dégénérescences Neurales  
-*Institut de Neurophysiopathologie, Marseille*  
-*Mai 2022*  
+#### Stage - Équipe Plasticité et Dégénérescences Neurales  (Eric Di Pasquale)
+*Institut de Neurophysiopathologie, Marseille - Mai 2022*  
 
 **Sujet** : *Les plaques amyloïdes, cause ou conséquence de la maladie d'Alzheimer ?*
 
 - Tests neuropsychologiques et neuroimagerie fonctionnelle
 - Mesure de la mémoire de travail spatiale
 - Techniques d'histochimie, cryostat, Western Blot
-
-[Voir la présentation](https://drive.google.com/file/d/1oVlgCF840UykN-x9ivL7eyLWkFKMxpTt/view?usp=drive_link)
+- [Voir la présentation](https://drive.google.com/file/d/1oVlgCF840UykN-x9ivL7eyLWkFKMxpTt/view?usp=drive_link)
 
 
 ## 📊 Projets
