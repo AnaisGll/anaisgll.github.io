@@ -2,4 +2,4 @@ title: Anais Guille
 logo : /images/pp_rond.png
 description: "Portfolio à la croisée des neurosciences et de la data science. Découvrez mes compétences et projets explorant l'intersection entre la recherche scientifique et l'analyse de données."
 show_dowloads: false
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
