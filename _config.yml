@@ -5,12 +5,6 @@ show_dowloads: false
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
-css:
-  - /assets/css/style.css
-nav:
-  - title: "Accueil"
-    url: /
-  - title: "Projets"
-    url: /projets/
+
 
   
