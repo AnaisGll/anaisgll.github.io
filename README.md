@@ -20,7 +20,7 @@ Approche globale des neurosciences, de la molécule aux fonctions cognitives, in
 #### Data science
 
 **Langages :**
-- Python, SQL
+- Python, SQL, HTML
 
 **Environnements de Développement :**
 - Anaconda, Jupyter, Visual Studio, PyCharm, EEGLab
