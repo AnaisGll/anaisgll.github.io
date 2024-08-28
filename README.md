@@ -1,10 +1,10 @@
-# **Data Scientist** 🧠 
+# Data Scientist 🧠 
 
 **Technical Skills**: Python, SQL, HTML, AWS, Azure, Streamlit, EEGLab
 
 ---
 
-### 🎓 **Formation**
+### 🎓 Formation
 
 - **Diplôme de Data Scientist (Niveau 7 - RNCP)** - OpenClassrooms (*2024*)
 - **Master en Neurosciences** - Neuroschool, Faculté des Sciences d'Aix-Marseille Université (*2023*)
@@ -12,12 +12,12 @@
 
 ---
 
-### 🔧 **Compétences**
+### 🔧 Compétences
 
-<u>**NEUROSCIENCES**</u>  
+#### Neurosciences 
 Approche globale des neurosciences, de la molécule aux fonctions cognitives, incluant les neurones, les réseaux neuronaux, leur développement et les grandes fonctions intégrées.
 
-<u>**DATA SCIENCE**</u>
+#### Data science
 
 **Langages :**
 - Python, SQL
@@ -41,7 +41,7 @@ Approche globale des neurosciences, de la molécule aux fonctions cognitives, in
 
 ---
 
-### 👩‍🔬 **Expériences**
+### 👩‍🔬 Expériences
 
 **Stage - Équipe Réhabilitation Cognitive et Sensorielle**
 *Laboratoire de Neurosciences Cognitives, Marseille* 
@@ -68,7 +68,7 @@ Approche globale des neurosciences, de la molécule aux fonctions cognitives, in
 
 ---
 
-## 📊 **Projets**
+## 📊 Projets
 
 1. **Préparer des données pour un organisme de santé publique**
    - **Description** : Amélioration de la base de données Open Food Facts grâce à la création d'un système de suggestion de remplissage. Ce système aide les utilisateurs à compléter la base de données de manière plus efficace.
@@ -107,7 +107,7 @@ Approche globale des neurosciences, de la molécule aux fonctions cognitives, in
 
 ---
 
-## 📫 **Contact**
+## 📫 Contact
 
 - **Email** : [guilleanais13@gmail.com](mailto:guilleanais13@gmail.com)
 - **LinkedIn** : [Anaïs Guille](https://www.linkedin.com/in/ana%C3%AFs-guille-29a433220/)
