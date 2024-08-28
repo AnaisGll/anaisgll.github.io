@@ -12,7 +12,7 @@
             margin: 0;
             padding: 0;
             display: flex;
-            flex-direction: row;
+            min-height: 100vh;
             background-color: #f0f4f8;
         }
 
@@ -29,7 +29,7 @@
             flex: 1;
             padding: 20px;
             max-width: 900px;
-            margin: 20px auto;
+            margin: 20px;
             box-sizing: border-box;
         }
 
@@ -40,14 +40,11 @@
             color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
+            margin-bottom: 20px;
         }
 
         header p {
+            margin: 0;
             font-size: 1.2em;
         }
 
@@ -114,6 +111,9 @@
             background-color: #4169E1; /* Bleu roi */
             color: #ffffff;
             border-top: 1px solid #ddd;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
 
         footer p {
