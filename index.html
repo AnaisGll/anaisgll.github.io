@@ -12,13 +12,28 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #sidebar {
+            width: 300px;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+
+        #content {
+            flex: 1;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            box-sizing: border-box;
         }
 
         header {
-            background-color: #f7f7f7;
-            padding: 20px;
             text-align: center;
-            border-bottom: 1px solid #ddd;
         }
 
         header h1 {
@@ -30,10 +45,20 @@
             font-size: 1.2em;
         }
 
-        main {
-            padding: 20px;
-            max-width: 900px;
-            margin: 0 auto;
+        #sidebar img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        #sidebar h1 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+
+        #sidebar p {
+            font-size: 1.1em;
+            margin: 0;
         }
 
         section {
@@ -41,10 +66,10 @@
         }
 
         h2 {
-            color: #4CAF50;
+            color: #4169E1; /* Bleu roi */
             margin-bottom: 10px;
             font-size: 1.8em;
-            border-bottom: 2px solid #4CAF50;
+            border-bottom: 2px solid #4169E1; /* Bleu roi */
             padding-bottom: 5px;
         }
 
@@ -58,7 +83,7 @@
         }
 
         a {
-            color: #4CAF50;
+            color: #4169E1; 
             text-decoration: none;
         }
 
@@ -80,12 +105,17 @@
 </head>
 <body>
 
-<header>
+<div id="sidebar">
+    <img src="images/pp_rond.png" alt="Anaïs Guille">
     <h1>Anaïs Guille</h1>
-    <p>Data Scientist 🧠</p>
-</header>
+    <p>Data Scientist spécialisée en Neurosciences avec une passion pour l'analyse de données et l'apprentissage automatique. Forte de plusieurs expériences en laboratoire, je me suis tournée vers la data science pour appliquer mes compétences en recherche au monde des données.</p>
+</div>
 
-<main>
+<div id="content">
+    <header>
+        <p>Data Scientist 🧠</p>
+    </header>
+
     <section>
         <h2>🎓 Formation</h2>
         <ul>
@@ -162,7 +192,7 @@
         <p>LinkedIn : <a href="https://www.linkedin.com/in/anaisguille/">Anaïs Guille</a></p>
         <p>GitHub : <a href="https://github.com/AnaisGll">AnaisGll</a></p>
     </section>
-</main>
+</div>
 
 <footer>
     <p>&copy; 2024 Anaïs Guille. Tous droits réservés.</p>
