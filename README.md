@@ -43,28 +43,31 @@ Approche globale des neurosciences, de la molécule aux fonctions cognitives, in
 
 ### 👩‍🔬 Expériences
 
-**Stage - Équipe Réhabilitation Cognitive et Sensorielle**
-*Laboratoire de Neurosciences Cognitives, Marseille* 
+#### Stage - Équipe Réhabilitation Cognitive et Sensorielle
+
+*Laboratoire de Neurosciences Cognitives, Marseille*
 *Janvier 2023 - Septembre 2023*  
-**Sujet** : *Effet de l'âge sur l'activité cérébrale et l'engagement cognitif au cours d'une tâche de mémoire de travail*
-- Collecte, traitement, analyse et interprétation de données EEG, pupillométriques et comportementales
-- Réalisation de tests neuropsychologiques et passation de sujets
-- Recherche bibliographique approfondie
+   **Sujet** : *Effet de l'âge sur l'activité cérébrale et l'engagement cognitif au cours d'une tâche de mémoire de travail*
+   - Collecte, traitement, analyse et interprétation de données EEG, pupillométriques et comportementales
+   - Réalisation de tests neuropsychologiques et passation de sujets
+   - Recherche bibliographique approfondie
 
-**Stage - Équipe Langage**
-*Laboratoire de Psychologie Cognitive, Marseille*  
+#### Stage - Équipe Langage
+
+*Laboratoire de Psychologie Cognitive, Marseille*
 *Juin 2022*  
-**Sujet** : *Étude de la compositionnalité en l'absence de langage : le cas de la négation*
-[Poster](https://drive.google.com/file/d/1FMpTJuRK7wqR1PqjkKuOmTZBNtACIrsP/view?usp=drive_link)
+   **Sujet** : *Étude de la compositionnalité en l'absence de langage : le cas de la négation*
+   [Poster](https://drive.google.com/file/d/1FMpTJuRK7wqR1PqjkKuOmTZBNtACIrsP/view?usp=drive_link)
 
-**Stage - Équipe Plasticité et Dégénérescences Neurales**
-*Institut de Neurophysiopathologie, Marseille*  
+#### Stage - Équipe Plasticité et Dégénérescences Neurales
+
+*Institut de Neurophysiopathologie, Marseille*
 *Mai 2022*  
-**Sujet** : *Les plaques amyloïdes, cause ou conséquence de la maladie d'Alzheimer ?*
-- Tests neuropsychologiques et neuroimagerie fonctionnelle
-- Mesure de la mémoire de travail spatiale
-- Techniques d'histochimie, cryostat, Western Blot
-[Présentation](https://drive.google.com/file/d/1oVlgCF840UykN-x9ivL7eyLWkFKMxpTt/view?usp=drive_link)
+   **Sujet** : *Les plaques amyloïdes, cause ou conséquence de la maladie d'Alzheimer ?*
+   - Tests neuropsychologiques et neuroimagerie fonctionnelle
+   - Mesure de la mémoire de travail spatiale
+   - Techniques d'histochimie, cryostat, Western Blot
+   [Présentation](https://drive.google.com/file/d/1oVlgCF840UykN-x9ivL7eyLWkFKMxpTt/view?usp=drive_link)
 
 ---
 
