@@ -1,6 +1,6 @@
-# 🧠 **Data Scientist - Anaïs Guille**
+# **Data Scientist** 🧠 
 
-**Technical Skills**: Python, SQL, AWS, Azure, Streamlit, EEGLab
+**Technical Skills**: Python, SQL, HTML, AWS, Azure, Streamlit, EEGLab
 
 ---
 
@@ -19,24 +19,24 @@ Approche globale des neurosciences, de la molécule aux fonctions cognitives, in
 
 _**Data Science**_
 
-**Langages :**
+*Langages :*
 - Python, SQL
 
-**Environnements de Développement :**
+*Environnements de Développement :*
 - Anaconda, Jupyter, Visual Studio, PyCharm, EEGLab
 
-**Outils et Frameworks :**
+*Outils et Frameworks :*
 - **Manipulation et Transformation de Données** : Pandas, NumPy
 - **Visualisation des Données** : Matplotlib, Seaborn, Plotly
 - **Machine Learning** : Scikit-learn, TensorFlow, Keras, PyTorch, XGBoost, LightGBM
 - **Deep Learning et Réseaux de Neurones** : Convolutional Neural Networks (CNN)
 
-**Cloud Computing et Déploiement :**
+*Cloud Computing et Déploiement :*
 - **Cloud Platforms** : Azure, AWS (S3, ERP)
 - **Déploiement d'Applications et de Modèles** : Kubernetes, Streamlit, Flask, GitHub Actions
 - **Gestion et Orchestration de Projets** : MLflow (suivi des expérimentations et des modèles)
 
-**Versioning et Collaboration :**
+*Versioning et Collaboration :*
 - Git, GitHub, Google Colab, JupyterHub
 
 ---
@@ -111,3 +111,4 @@ _**Data Science**_
 
 - **Email** : [guilleanais13@gmail.com](mailto:guilleanais13@gmail.com)
 - **LinkedIn** : [Anaïs Guille](https://www.linkedin.com/in/ana%C3%AFs-guille-29a433220/)
+- **GitHub** : [AnaisGll](https://github.com/AnaisGll)
