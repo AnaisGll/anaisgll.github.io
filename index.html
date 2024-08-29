@@ -36,6 +36,7 @@
             background-color: var(--primary-color);
             padding: 10px 0;
             z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         nav ul {
@@ -67,7 +68,7 @@
             flex: 1;
             padding: 20px;
             max-width: 900px;
-            margin: 60px auto 20px; /* Ajout d'un margin-top pour compenser le menu fixe */
+            margin: 80px auto 20px; /* Ajustement pour compenser le menu fixe */
             box-sizing: border-box;
         }
 
@@ -78,6 +79,12 @@
             color: var(--secondary-color);
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
 
         header h1 {
@@ -138,7 +145,6 @@
             background-color: var(--primary-color);
             color: var(--secondary-color);
             border-top: 1px solid #ddd;
-            position: relative;
             box-sizing: border-box;
         }
 
@@ -198,6 +204,12 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        /* Section Projets avec images */
+        .project-link img {
+            vertical-align: middle;
+            margin-right: 8px;
+        }
     </style>
 </head>
 <body>
@@ -247,13 +259,7 @@
             </li>
             <li><strong>Stage - Équipe Langage (Isabelle Dautriche)</strong><br>
                 Laboratoire de Psychologie Cognitive, Marseille - Juin 2022<br>
-                Sujet : Étude de la compositionnalité en l'absence de langage : le cas de la négation<br>
-                <a href="https://drive.google.com/file/d/1FMpTJuRK7wqR1PqjkKuOmTZBNtACIrsP/view?usp=drive_link">Voir le poster</a>
-            </li>
-            <li><strong>Stage - Équipe Plasticité et Dégénérescences Neurales (Eric Di Pasquale)</strong><br>
-                Institut de Neurophysiopathologie, Marseille - Mai 2022<br>
-                Sujet : Les plaques amyloïdes, cause ou conséquence de la maladie d'Alzheimer ?<br>
-                <a href="https://drive.google.com/file/d/1oVlgCF840UykN-x9ivL7eyLWkFKMxpTt/view?usp=drive_link">Voir la présentation</a>
+                Sujet : Étude des mécanismes d'intégration syntaxique dans la lecture à haute voix
             </li>
         </ul>
     </section>
@@ -261,45 +267,26 @@
     <section id="projets" class="reveal">
         <h2>📊 Projets</h2>
         <ul>
-            <li><strong>Préparer des données pour un organisme de santé publique</strong><br>
+            <li>
+                <strong>Préparer des données pour un organisme de santé publique</strong><br>
                 Amélioration de la base de données Open Food Facts grâce à la création d'un système de suggestion de remplissage.<br>
-                <a href="https://github.com/AnaisGll/OC-P3-Preparer-des-donnees-pour-un-organisme-de-sante-publique">Voir sur GitHub</a>
+                <a href="https://github.com/AnaisGll/OC-P3-Preparer-des-donnees-pour-un-organisme-de-sante-publique" class="project-link">
+                    <img src="icon-github.svg" alt="GitHub" width="20"> Voir sur GitHub
+                </a>
             </li>
-            <li><strong>Classification Automatique de Biens de Consommation</strong><br>
-                Développement d'un modèle de machine learning pour classer automatiquement des produits de consommation.<br>
-                <a href="https://github.com/AnaisGll/OC-P6-Classifier-automatiquement-des-biens-de-consommation">Voir sur GitHub</a>
-            </li>
-            <li><strong>Implémentation d'un Modèle de Scoring</strong><br>
-                Conception et déploiement d'un modèle de scoring pour évaluer le risque d'octroi de crédits.<br>
-                <a href="https://github.com/AnaisGll/OC-P7-Implementer_un_modele_de_scoring">Voir sur GitHub</a>
-            </li>
-            <li><strong>Réalisation d'un Dashboard et Veille Technique</strong><br>
-                Création d'un tableau de bord interactif pour visualiser les indicateurs clés de performance.<br>
-                <a href="https://github.com/AnaisGll/OC-P8-Realisez-un-dashboard-et-assurer-une-veille-technique">Voir sur GitHub</a>
-            </li>
-            <li><strong>Traitement de Données dans un Environnement Big Data sur le Cloud</strong><br>
-                Traitement de données volumineuses sur une plateforme cloud avec des outils big data.<br>
-                <a href="https://github.com/AnaisGll/OC-P9-Realisez-un-traitement-dans-un-environnement-big-data-sur-le-cloud">Voir sur GitHub</a>
-            </li>
-            <li><strong>Cadrage d'un Projet IA</strong><br>
-                Construction et exécution de la vision produit pour une application mobile.<br>
-                <a href="https://github.com/AnaisGll/OC-P10-Realisez-le-cadrage-dun-projet-IA">Voir sur GitHub</a>
-            </li>
+            <!-- Ajoute plus de projets ici -->
         </ul>
     </section>
 
     <section id="contact" class="reveal">
-        <h2>📫 Contact</h2>
-        <form action="https://formspree.io/f/xvgplvdk" method="POST">
-            <label for="name">Nom :</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-
-            <label for="email">Email :</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="message">Message :</label><br>
-            <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
+        <h2>📬 Contact</h2>
+        <form action="mailto:anais.guille@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
             <input type="submit" value="Envoyer">
         </form>
     </section>
@@ -309,43 +296,38 @@
     <p>&copy; 2024 Anaïs Guille. Tous droits réservés.</p>
 </footer>
 
-<button id="back-to-top">⬆️ Retour en haut</button>
+<!-- Bouton de retour en haut de la page -->
+<button id="back-to-top">↑</button>
 
 <script>
-    // Révéler les sections au défilement
-    document.addEventListener('DOMContentLoaded', function () {
-        function reveal() {
-            const reveals = document.querySelectorAll('.reveal');
-            for (let i = 0; i < reveals.length; i++) {
-                const windowHeight = window.innerHeight;
-                const elementTop = reveals[i].getBoundingClientRect().top;
-                const elementVisible = 150;
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add('active');
-                } else {
-                    reveals[i].classList.remove('active');
-                }
-            }
-        }
-
-        window.addEventListener('scroll', reveal);
-        reveal(); // Révéler les éléments au chargement
-    });
-
-    // Bouton retour en haut
-    const backToTopButton = document.getElementById('back-to-top');
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
+    // Gestion du bouton de retour en haut de la page
+    document.addEventListener('scroll', function() {
+        var backToTopButton = document.getElementById('back-to-top');
+        if (window.scrollY > 300) {
             backToTopButton.style.display = 'block';
         } else {
             backToTopButton.style.display = 'none';
         }
     });
 
-    backToTopButton.addEventListener('click', () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
+    document.getElementById('back-to-top').addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Activation des animations de la section
+    document.addEventListener('DOMContentLoaded', function() {
+        var reveals = document.querySelectorAll('.reveal');
+        window.addEventListener('scroll', function() {
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add('active');
+                } else {
+                    reveals[i].classList.remove('active');
+                }
+            }
         });
     });
 </script>
