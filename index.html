@@ -79,6 +79,7 @@
             color: var(--secondary-color);
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
         }
 
         header img.profile-pic {
@@ -98,6 +99,21 @@
 
         header p {
             font-size: 1.2em;
+        }
+
+        .social-media-header {
+            margin-top: 10px;
+        }
+
+        .social-media-header a {
+            color: var(--secondary-color);
+            font-size: 1.5em;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-media-header a:hover {
+            color: var(--highlight-color);
         }
 
         section {
@@ -242,6 +258,14 @@
         <img src="images/pp_rond.png" alt="Anaïs Guille" class="profile-pic">
         <h1>Anaïs Guille</h1>
         <p>Data Scientist 🧠</p>
+        <div class="social-media-header">
+            <a href="https://www.linkedin.com/in/anais-guille-29a433220" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/AnaisGll" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
     </header>
 
     <section id="formation" class="reveal">
@@ -343,49 +367,47 @@
     </div>
 </footer>
 
-<button id="back-to-top">⬆️ Retour en haut</button>
+<button id="back-to-top" onclick="scrollToTop()">
+    <i class="fas fa-chevron-up"></i>
+</button>
 
 <script>
-    // Révéler les sections au défilement
-    document.addEventListener('DOMContentLoaded', function () {
-        function reveal() {
-            const reveals = document.querySelectorAll('.reveal');
-            for (let i = 0; i < reveals.length; i++) {
-                const windowHeight = window.innerHeight;
-                const elementTop = reveals[i].getBoundingClientRect().top;
-                const elementVisible = 150;
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add('active');
-                } else {
-                    reveals[i].classList.remove('active');
-                }
+    // Function to reveal sections on scroll
+    function revealOnScroll() {
+        const elements = document.querySelectorAll('.reveal');
+        const windowHeight = window.innerHeight;
+        elements.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top <= windowHeight - 100) {
+                el.classList.add('active');
             }
-        }
+        });
+    }
 
-        window.addEventListener('scroll', reveal);
-        reveal(); // Révéler les éléments au chargement
-    });
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll(); // Initial check
 
-    // Bouton retour en haut
-    const backToTopButton = document.getElementById('back-to-top');
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            backToTopButton.style.display = 'block';
-        } else {
-            backToTopButton.style.display = 'none';
-        }
-    });
-
-    backToTopButton.addEventListener('click', () => {
+    // Function to scroll to top
+    function scrollToTop() {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
-    });
-</script>
+    }
 
-<!-- Inclure FontAwesome pour les icônes de réseaux sociaux -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    // Show/hide back-to-top button
+    function toggleBackToTopButton() {
+        const button = document.getElementById('back-to-top');
+        if (window.scrollY > 300) {
+            button.style.display = 'block';
+        } else {
+            button.style.display = 'none';
+        }
+    }
+
+    window.addEventListener('scroll', toggleBackToTopButton);
+    toggleBackToTopButton(); // Initial check
+</script>
 
 </body>
 </html>
