@@ -8,6 +8,7 @@
     <meta name="keywords" content="Data Scientist, Neurosciences, Analyse de données, Portfolio, Anaïs Guille">
     <meta name="author" content="Anaïs Guille">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* Palette de couleurs */
         :root {
@@ -80,6 +81,15 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
+        header img.profile-pic {
+            border-radius: 50%;
+            width: 150px; /* Ajustez la taille selon vos préférences */
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
         header h1 {
             margin: 0;
             font-size: 2.5em;
@@ -140,6 +150,21 @@
             border-top: 1px solid #ddd;
             position: relative;
             box-sizing: border-box;
+        }
+
+        footer .social-media {
+            margin-top: 10px;
+        }
+
+        footer .social-media a {
+            color: var(--secondary-color);
+            font-size: 1.5em;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer .social-media a:hover {
+            color: var(--highlight-color);
         }
 
         form {
@@ -214,6 +239,7 @@
 
 <div id="content">
     <header>
+        <img src="images/pp_rond.png" alt="Anaïs Guille" class="profile-pic">
         <h1>Anaïs Guille</h1>
         <p>Data Scientist 🧠</p>
     </header>
@@ -307,6 +333,14 @@
 
 <footer>
     <p>&copy; 2024 Anaïs Guille. Tous droits réservés.</p>
+    <div class="social-media">
+        <a href="www.linkedin.com/in/anais-guille-29a433220" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/AnaisGll" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
 </footer>
 
 <button id="back-to-top">⬆️ Retour en haut</button>
@@ -349,6 +383,9 @@
         });
     });
 </script>
+
+<!-- Inclure FontAwesome pour les icônes de réseaux sociaux -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 </html>
