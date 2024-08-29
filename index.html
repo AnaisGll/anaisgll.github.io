@@ -103,6 +103,8 @@
 
         .social-media-header {
             margin-top: 10px;
+            display: flex;
+            justify-content: center;
         }
 
         .social-media-header a {
@@ -110,23 +112,19 @@
             font-size: 1.5em;
             margin: 0 10px;
             transition: color 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .social-media-header a span {
+            margin-left: 5px; /* Espacement entre l'icône et le texte "CV" */
+            font-size: 0.9em;
         }
 
         .social-media-header a:hover {
             color: var(--highlight-color);
         }
 
-        .social-media-header a {
-            color: var(--secondary-color);
-            font-size: 1.5em;
-            margin: 0 10px;
-            transition: color 0.3s ease;
-        }
-
-        .social-media-header a:hover {
-            color: var(--highlight-color);
-        }
-        
         section {
             margin-bottom: 40px;
             padding: 20px;
@@ -264,22 +262,24 @@
     </ul>
 </nav>
 
-<header>
-    <img src="images/pp_rond.png" alt="Anaïs Guille" class="profile-pic">
-    <h1>Anaïs Guille</h1>
-    <p>Data Scientist </p>
-    <div class="social-media-header">
-        <a href="https://www.linkedin.com/in/anais-guille-29a433220" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="https://github.com/AnaisGll" target="_blank" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-        </a>
-        <a href="CV/CV_Anais_Guille.pdf" target="_blank" aria-label="Télécharger le CV">
-            <i class="fas fa-file-alt"></i> <span style="font-size: 0.9em;">CV</span>
-        </a>
-    </div>
-</header>
+<div id="content">
+    <header>
+        <img src="images/pp_rond.png" alt="Anaïs Guille" class="profile-pic">
+        <h1>Anaïs Guille</h1>
+        <p>Data Scientist </p>
+        <div class="social-media-header">
+            <a href="https://www.linkedin.com/in/anais-guille-29a433220" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/AnaisGll" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <!-- Ajout de l'icône CV -->
+            <a href="CV/CV_Anais_Guille.pdf" target="_blank" aria-label="Télécharger le CV">
+                <i class="fas fa-file-alt"></i> <span>CV</span>
+            </a>
+        </div>
+    </header>
 
     <section id="formation" class="reveal">
         <h2>🎓 Formation</h2>
