@@ -264,7 +264,7 @@
         }
 
         .carousel-item img {
-            max-width: 100%;
+            max-width: 70%;
             height: auto;
             border-radius: 8px;
             margin-bottom: 10px;
@@ -408,8 +408,8 @@
                     <a href="https://github.com/AnaisGll/OC-P10-Realisez-le-cadrage-dun-projet-IA">Voir sur GitHub</a>
                 </div>
             </div>
-            <button class="carousel-control prev" aria-label="Previous">&#10094;</button>
-            <button class="carousel-control next" aria-label="Next">&#10095;</button>
+            <button class="carousel-control prev" onclick="previousSlide()">&#10094;</button>
+            <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
         </div>
     </section>
 
@@ -482,7 +482,6 @@
 
     window.addEventListener('scroll', toggleBackToTopButton);
     toggleBackToTopButton(); // Initial check
-</script>
 
     const carousel = document.querySelector('.carousel');
         const items = document.querySelectorAll('.carousel-item');
@@ -503,6 +502,6 @@
             const newTranslateX = -currentIndex * 100;
             carousel.style.transform = `translateX(${newTranslateX}%)`;
         }
-
+</script>
 </body>
 </html>
