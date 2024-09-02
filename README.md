@@ -68,11 +68,11 @@ Approche globale des neurosciences, de la molécule aux fonctions cognitives, in
 
 ## 📊 Projets
 
-1. **Préparer des données pour un organisme de santé publique**
-   - **Description** : Amélioration de la base de données Open Food Facts grâce à la création d'un système de suggestion de remplissage. Ce système aide les utilisateurs à compléter la base de données de manière plus efficace.
-   - **Compétences utilisées** : Pandas, NumPy, KNNImputer, PCA, Test de Shapiro
-   - **Défi Relevés** : Traitement du jeu de données, imputation des données manquantes, production de visualisations pour analyses univariées et multivariées
-   - **Lien** [Voir sur GitHub](https://github.com/AnaisGll/OC-P3-Preparer-des-donnees-pour-un-organisme-de-sante-publique)
+1. **Alzheimer's Disease Prediction**
+   - **Description** : Développement d'un modèle de prédiction de la maladie d'Alzheimer
+   - **Compétences utilisées** : Pandas, Seaborn, MLflow, ImBLearn, XGBoost, LightGBM
+   - **Défi Relevés** : Traitement du jeu de données, production de visualisations pour analyses univariées et bivariées, utilisation mlflow, optimisation et comparaison de plusieurs modèles
+   - **Lien** [Voir sur GitHub](https://github.com/AnaisGll/Alzheimer-s-Disease-Prediction)
 
  2. **Classification Automatique de Biens de Consommation**
    - **Description** : Développement d'un modèle de machine learning pour classer automatiquement des produits de consommation en différentes catégories, basé sur leur description et leur image.
