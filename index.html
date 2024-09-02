@@ -68,7 +68,7 @@
             flex: 1;
             padding: 20px;
             max-width: 900px;
-            margin: 60px auto 20px; /* Ajout d'un margin-top pour compenser le menu fixe */
+            margin: 60px auto 20px; 
             box-sizing: border-box;
         }
 
@@ -84,7 +84,7 @@
 
         header img.profile-pic {
             border-radius: 50%;
-            width: 150px; /* Ajustez la taille selon vos préférences */
+            width: 150px; 
             height: 150px;
             object-fit: cover;
             display: block;
@@ -239,6 +239,69 @@
             opacity: 1;
             transform: translateY(0);
         }
+        .carousel {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .carousel-caption h3 {
+            margin: 0;
+        }
+
+        .carousel-caption a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 1.5em;
+            z-index: 100;
+            border-radius: 50%;
+        }
+
+        .carousel-control.prev {
+            left: 10px;
+        }
+
+        .carousel-control.next {
+            right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -312,34 +375,33 @@
     </section>
 
     <section id="projets" class="reveal">
-        <h2>📊 Projets</h2>
-        <ul>
-            <li><strong>Alzheimer's Disease Prediction</strong><br>
-                Développement d'un modèle de prédiction de la maladie d'Alzheimer.<br>
-                <a href="https://github.com/AnaisGll/OC-P3-Preparer-des-donnees-pour-un-organisme-de-sante-publique">Voir sur GitHub</a>
-            </li>
-            <li><strong>Classification Automatique de Biens de Consommation</strong><br>
-                Développement d'un modèle de machine learning pour classer automatiquement des produits de consommation.<br>
-                <a href="https://github.com/AnaisGll/Alzheimer-s-Disease-Prediction">Voir sur GitHub</a>
-            </li>
-            <li><strong>Implémentation d'un Modèle de Scoring</strong><br>
-                Conception et déploiement d'un modèle de scoring pour évaluer le risque d'octroi de crédits.<br>
-                <a href="https://github.com/AnaisGll/OC-P7-Implementer_un_modele_de_scoring">Voir sur GitHub</a>
-            </li>
-            <li><strong>Réalisation d'un Dashboard et Veille Technique</strong><br>
-                Création d'un tableau de bord interactif pour visualiser les indicateurs clés de performance.<br>
-                <a href="https://github.com/AnaisGll/OC-P8-Realisez-un-dashboard-et-assurer-une-veille-technique">Voir sur GitHub</a>
-            </li>
-            <li><strong>Traitement de Données dans un Environnement Big Data sur le Cloud</strong><br>
-                Traitement de données volumineuses sur une plateforme cloud avec des outils big data.<br>
-                <a href="https://github.com/AnaisGll/OC-P9-Realisez-un-traitement-dans-un-environnement-big-data-sur-le-cloud">Voir sur GitHub</a>
-            </li>
-            <li><strong>Cadrage d'un Projet IA</strong><br>
-                Construction et exécution de la vision produit pour une application mobile.<br>
-                <a href="https://github.com/AnaisGll/OC-P10-Realisez-le-cadrage-dun-projet-IA">Voir sur GitHub</a>
-            </li>
-        </ul>
-    </section>
+    <h2>📊 Projets</h2>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="images/alzheimer.png" alt="Alzheimer's Disease Prediction">
+                <div class="carousel-caption">
+                    <h3>Alzheimer's Disease Prediction</h3>
+                    <a href="https://github.com/AnaisGll/Alzheimer-s-Disease-Prediction">Voir sur GitHub</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/P6_PlacedeMarche.png" alt="Classification Automatique de Biens de Consommation">
+                <div class="carousel-caption">
+                    <h3>Classification Automatique de Biens de Consommation</h3>
+                    <a href="https://github.com/AnaisGll/OC-P6-Classifier-automatiquement-des-biens-de-consommation">Voir sur GitHub</a>
+                </div>
+            <div class="carousel-item">
+                <img src="images/P7_pretadepenser.png" alt="Implémentation d'un modèle de scoring">
+                <div class="carousel-caption">
+                    <h3>Implémentation d'un modèle de scoring</h3>
+                    <a href="https://github.com/AnaisGll/OC-P7-Implementer_un_modele_de_scoring">Voir sur GitHub</a>
+                </div>
+        <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+</section>
+
 
     <section id="contact" class="reveal">
         <h2>📫 Contact</h2>
