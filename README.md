@@ -97,7 +97,7 @@ Comprehensive understanding of neuroscience, from molecules to cognitive functio
    - **Challenges** : Synthesis of complex information, user interface design, comparison of methods.
    - **Link** : [GitHub Repository](https://github.com/AnaisGll/OC-P8-Realisez-un-dashboard-et-assurer-une-veille-technique)
 
-5. **Data Processing in a Big Data Environment on the Cloud**
+5. **Big Data Processing in a Cloud Environment**
    - **Description** : Processing large amounts of data on a cloud platform using big data tools to ingest, process, and analyze massive datasets.
    - **Skills Used** : Apache Spark, Hadoop, AWS (S3, EMR, EC2), PySpark, MobileNetV2
    - **Challenges** : Implementation of a Big Data architecture, performance optimization, task orchestration on the cloud.
