@@ -72,7 +72,7 @@ Comprehensive understanding of neuroscience, from molecules to cognitive functio
 - [View Presentation](https://drive.google.com/file/d/1oVlgCF840UykN-x9ivL7eyLWkFKMxpTt/view?usp=drive_link)
 
 
-## 📊 Projects
+### 📊 Projects
 
 1. **Alzheimer's Disease Prediction**
    - **Description** : Development of a model for predicting Alzheimer's disease
@@ -110,7 +110,7 @@ Comprehensive understanding of neuroscience, from molecules to cognitive functio
 
 ---
 
-## 📫 Contact
+### 📫 Contact
 
 - **E-mail** : [guilleanais13@gmail.com](mailto:guilleanais13@gmail.com)
 - **LinkedIn** : [Anaïs Guille](https://www.linkedin.com/in/ana%C3%AFs-guille-29a433220/)
