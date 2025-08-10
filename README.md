@@ -74,31 +74,36 @@ Comprehensive understanding of neuroscience, from molecules to cognitive functio
 
 ## 📊 Projects
 
- 1. **Automatic Classification of Consumer Goods**
+1. **Alzheimer's Disease Prediction**
+   - **Description** : Development of a model for predicting Alzheimer's disease
+   - **Skills Used** : Pandas, Seaborn, MLflow, ImBLearn, XGBoost, LightGBM
+   - **Challenges** : Data set processing, production of visualizations for univariate and bivariate analyses, use of mlflow, optimization and comparison of multiple models.
+   - **Link** [GitHub Repository](https://github.com/AnaisGll/Alzheimer-s-Disease-Prediction)
+
+2. **Automatic Classification of Consumer Goods**
    - **Description** : Development of a machine learning model to automatically classify consumer products into categories based on their description and image.
    - **Skills Used** : Pandas, NumPy, Scikit-learn, Word Embedding, PCA, t-SNE, KMeans, VGG16
    - **Challenges** : Text data preprocessing, hybrid classification model (image + description), hyperparameter optimization.
    - **Link** : [GitHub Repository](https://github.com/AnaisGll/OC-P6-Classifier-automatiquement-des-biens-de-consommation)
 
-2. **Implementation of a Scoring Model**
+3. **Implementation of a Scoring Model**
    - **Description** : Design and deployment of a scoring model to assess credit risk, with production of an API and creation of a test interface.
    - **Skills Used** : Scikit-learn, XGBoost, LightGBM, SMOTE, Flask, Azure, Streamlit
    - **Challenges** : Processing unbalanced data, choosing metrics (AUC, ROC), optimizing hyperparameters, deploying an API.
    - **Link** : [GitHub Repository](https://github.com/AnaisGll/OC-P7-Implementer_un_modele_de_scoring)
-
-3. **Creation of a Dashboard and Technical Monitoring**
+4. **Creation of a Dashboard and Technical Monitoring**
    - **Description** : Creation of an interactive dashboard to visualize a company's key performance indicators, accompanied by technical monitoring in data science.
    - **Skills Used** : Streamlit, CLIP, Development of a methodological note
    - **Challenges** : Synthesis of complex information, user interface design, comparison of methods.
    - **Link** : [GitHub Repository](https://github.com/AnaisGll/OC-P8-Realisez-un-dashboard-et-assurer-une-veille-technique)
 
-4. **Data Processing in a Big Data Environment on the Cloud**
+5. **Data Processing in a Big Data Environment on the Cloud**
    - **Description** : Processing large amounts of data on a cloud platform using big data tools to ingest, process, and analyze massive datasets.
    - **Skills Used** : Apache Spark, Hadoop, AWS (S3, EMR, EC2), PySpark, MobileNetV2
    - **Challenges** : Implementation of a Big Data architecture, performance optimization, task orchestration on the cloud.
    - **Link** : [GitHub Repository](https://github.com/AnaisGll/OC-P9-Realisez-un-traitement-dans-un-environnement-big-data-sur-le-cloud)
 
-5. **AI Project Management**
+6. **AI Project Management**
    - **Description** : Building and executing the product vision for a mobile app, including project management, team sizing, and risk assessment.
    - **Skill Used** : Development of a backlog, cost assessment, management of legal and ethical issues
    - **Link** : [GitHub Repository](https://github.com/AnaisGll/OC-P10-Realisez-le-cadrage-dun-projet-IA)
