@@ -32,7 +32,7 @@ Comprehensive understanding of neuroscience, from molecules to cognitive functio
 - *Deep Learning & Neural Networks:* Convolutional Neural Networks (CNN)
 
 **Cloud Computing & Deployment:**
-- *Cloud Platforms* : Azure, AWS (S3, ERP)
+- *Cloud Platforms:* Azure, AWS (S3, ERP)
 - *Application & Model Deployment:* Kubernetes, Streamlit, Flask, GitHub Actions
 - *Project Management & Orchestration:* MLflow (experiment and model tracking)
 
